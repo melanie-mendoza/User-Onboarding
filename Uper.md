@@ -9,18 +9,18 @@ Understand:
 What would your final results look like?
     - A SPA that has a form to onboard a new user to a system. The SPA will have _at least_ the following pieces of information about the new user:
 
-        - [ ] Name
-        - [ ] Email
+        - [√] Name 
+        - [√] Email 
         - [ ] Password
-        - [ ] Terms of Service (checkbox)
-        - [ ] A Submit button to send our form data to the server. 
+        - [√] Terms of Service (checkbox)
+        - [√] A Submit button to send our form data to the server. 
 
     - This app will render an array of objects to the page. Values are strings of user names, email, password, etc.
 
 What does the project do/functionality?
     The following functionalities are required:
-    [ ] Using Yup, set up _at least_ two different validations along with custom error messages that will display on screen when validation fails.
-    [ ] Craft a `POST` request using `axios` that sends your form data to the following endpoint: _`https://reqres.in/api/users`_
+    [√] Using Yup, set up _at least_ two different validations along with custom error messages that will display on screen when validation fails.
+    [√] Craft a `POST` request using `axios` that sends your form data to the following endpoint: _`https://reqres.in/api/users`_
     [ ] Verify using a `console.log()` that you are receiving a successful response back 
     [ ] Set up a state property called `users` that is initialized with an empty array
     [ ] Every time you make a `POST` request, and get that new user data back, update your `users` state with the new user added to the array
@@ -42,6 +42,8 @@ What are your questions?
     - Where to place props?
     - How to post a request?
     - What is YUP?
+        - Validation Library
+        - Validates email, password, etc.
     - JSON.stringify()
     - endpoint: _`https://reqres.in/api/users`_
     - How to submit form to a data server?
